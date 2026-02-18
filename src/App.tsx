@@ -1,5 +1,5 @@
 import './index.css'
-import { Header, Hero } from './components'
+import { Header, Hero, Features, MoreInformation } from './components'
 
 function App() {
 
@@ -18,6 +18,8 @@ function App() {
       </section>
       <section className='bg-Navy-900 p-6'>
         <Hero/>
+        <Features/>
+        <MoreInformation/>
       </section>
     </main>
   )
